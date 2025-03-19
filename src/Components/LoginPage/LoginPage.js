@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Grid from "@material-ui/core/Grid";
 
 class LoginPage extends Component {
     constructor(props) {
@@ -7,7 +8,19 @@ class LoginPage extends Component {
     }
     render() {
         return (
-            <div className="App">Hello React</div>
+            <div>
+                <Grid container>
+                    <Grid item xs={3}>
+                        Hello
+                    </Grid>
+                    <Grid item xs={6}>
+                        from
+                    </Grid>
+                    <Grid item xs={3}>
+                        IJSE
+                    </Grid>
+                </Grid>
+            </div>
         )
     }
 }
