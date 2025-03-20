@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
+import './LoginPage.css';
 import inst_image from "../../images/9364675fb26a.svg";
 import inst_logo from "../../images/logoinsta.png";
 
@@ -12,21 +13,20 @@ class LoginPage extends Component {
         return (
             <div>
                 <Grid container>
-                    <Grid item xs={3}>
-                        Hello
-                    </Grid>a
+                    <Grid item xs={3}></Grid>
                     <Grid item xs={6}>
                         <div className="login-page-main">
                             <div>
-                                <img src={inst_image} width={"450"} alt={"instagram"}/>
+                                <img src={inst_image} width="350" alt={"instagram"}/>
+                            </div>
+                            <div className="loginPage_rightComponent">
+                                <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
                             </div>
                         </div>
-                        <div className="loginPage_rightComponent">
-                            <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
-                        </div>
+
+
                     </Grid>
                     <Grid item xs={3}>
-                        IJSE
                     </Grid>
                 </Grid>
             </div>
