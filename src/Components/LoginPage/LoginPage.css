@@ -1,0 +1,13 @@
+.loginPage_main {
+    display: flex;
+}
+
+.loginPage_logo {
+    width: 175px;
+}
+
+.loginPage_rightComponent {
+    height: 380px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+}
