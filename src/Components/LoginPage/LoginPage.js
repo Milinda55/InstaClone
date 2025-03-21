@@ -22,12 +22,10 @@ class LoginPage extends Component {
                         <div>
                         <div className="loginPage_rightComponent">
                             <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
-                        </div>
-                        <div>
                             <div className="loginPage_signin">
-                                <input type="text"/>
-                                <input type="password"/>
-                                <button>Sign In</button>
+                                <input className="loginPage_text" type="text"/>
+                                <input className="loginPage_text" type="password"/>
+                                <button className="login_button">Sign In</button>
                             </div>
                         </div>
                         </div>

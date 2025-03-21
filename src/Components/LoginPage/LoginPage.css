@@ -15,3 +15,17 @@
     margin-top: 25px;
     text-align: center;
 }
+
+.loginPage_signin {
+    margin-top: 25px;
+}
+
+.loginPage_text {
+    width: 258px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+}
+.login_button {
+    width: 270px;
+}
