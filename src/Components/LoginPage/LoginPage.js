@@ -19,9 +19,18 @@ class LoginPage extends Component {
                             <div>
                                 <img src={inst_image} width="350" alt={"instagram"}/>
                             </div>
-                            <div className="loginPage_rightComponent">
-                                <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
+                        <div>
+                        <div className="loginPage_rightComponent">
+                            <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
+                        </div>
+                        <div>
+                            <div className="loginPage_signin">
+                                <input type="text"/>
+                                <input type="password"/>
+                                <button>Sign In</button>
                             </div>
+                        </div>
+                        </div>
                         </div>
 
 
