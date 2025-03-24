@@ -27,6 +27,13 @@ class LoginPage extends Component {
                                 <input className="loginPage_text" type="password" placeholder="Password"/>
                                 <button className="login_button">Sign In</button>
                             </div>
+
+                            <div className="loginPage_ordiv">
+                                <div className="login_divider"></div>
+                                <div className="login_or">OR</div>
+                                <div className="login_divider"></div>
+                            </div>
+
                         </div>
                         </div>
                         </div>
