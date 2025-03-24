@@ -5,7 +5,8 @@ body {
 
 .login-page-main {
     display: flex;
-    margin: 25px;
+    margin-top: 10px;
+    margin-left: -65px;
 }
 
 .loginPage_logo {
@@ -14,9 +15,9 @@ body {
 }
 
 .loginPage_rightComponent {
-    height: 280px;
     width: 350px;
-    border: 1px solid #dbdbdb;
+    padding-bottom: 25px;
+    border: 1px solid #DBDBDB;
     margin-top: 25px;
     text-align: center;
     background-color: white;
@@ -44,4 +45,33 @@ body {
     border: 1px solid #0395F6;
     background-color: #0395F6;
     color: white;
+}
+
+.loginPage_ordiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login_dividor {
+    width: 80px;
+    height: 0px;
+    margin-top: 10px;
+    border:1px solid #DBDBDB;
+}
+.login_or {
+    margin: 0px 10px;
+    font-weight: bold;
+    color: #8E8E8E;
+}
+.login_fb {
+    color: #395185;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.login_forgot {
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
 }

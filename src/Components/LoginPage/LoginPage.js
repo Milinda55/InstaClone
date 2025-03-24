@@ -3,6 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import './LoginPage.css';
 import inst_image from "../../images/9364675fb26a.svg";
 import inst_logo from "../../images/logoinsta.png";
+import fb_logo from "../../images/fb.png";
+
 
 class LoginPage extends Component {
     constructor(props) {
@@ -33,6 +35,11 @@ class LoginPage extends Component {
                                 <div className="login_or">OR</div>
                                 <div className="login_divider"></div>
                             </div>
+
+                            <div className="login_fb">
+                                <img src={fb_logo} width="15px" style={{ "marginRight":"5px" }}  alt=""/>Log in with Facebook
+                            </div>
+                            <div className="login_forgot"> Forgot password?</div>
 
                         </div>
                         </div>
