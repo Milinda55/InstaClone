@@ -23,8 +23,8 @@ class LoginPage extends Component {
                         <div className="loginPage_rightComponent">
                             <img className="loginPage_logo" src={inst_logo} alt={"logo"}/>
                             <div className="loginPage_signin">
-                                <input className="loginPage_text" type="text"/>
-                                <input className="loginPage_text" type="password"/>
+                                <input className="loginPage_text" type="text" placeholder="Phone number, username or email"/>
+                                <input className="loginPage_text" type="password" placeholder="Password"/>
                                 <button className="login_button">Sign In</button>
                             </div>
                         </div>

@@ -25,6 +25,7 @@
     height: 36px;
     margin: 5px;
     border: 1px solid #dbdbdb;
+    background-color: #fafafa;
 }
 .login_button {
     width: 270px;
