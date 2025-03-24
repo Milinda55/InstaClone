@@ -1,19 +1,15 @@
 body {
-    background-color: #fafafa;
+    background-color: #FAFAFA;
 }
-
-
 .login-page-main {
     display: flex;
     margin-top: 10px;
     margin-left: -65px;
 }
-
 .loginPage_logo {
     width: 175px;
     margin-top: 25px;
 }
-
 .loginPage_rightComponent {
     width: 350px;
     padding-bottom: 25px;
@@ -22,31 +18,28 @@ body {
     text-align: center;
     background-color: white;
 }
-
 .loginPage_signin {
     margin-top: 25px;
 }
-
-.loginPage_text {
-    width: 258px;
+.loginPage_text{
+    width:258px;
     height: 36px;
-    margin: 5px;
-    border: 1px solid #dbdbdb;
-    background-color: #fafafa;
+    margin:5px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
     padding-left: 10px;
     border-radius: 5px;
 }
-.login_button {
-    width: 270px;
+.login_button{
+    width:270px;
     height: 36px;
     border-radius: 5px;
-    margin-top: 5px;
     font-weight: bold;
-    border: 1px solid #0395F6;
+    margin-top: 5px;
+    border:1px solid #0395F6;
     background-color: #0395F6;
     color: white;
 }
-
 .loginPage_ordiv {
     display: flex;
     justify-content: center;
@@ -75,7 +68,6 @@ body {
     margin-top: 12px;
     text-align: center;
 }
-
 .loginpage_signupoption {
     margin-top: 25px;
     height:56px;
