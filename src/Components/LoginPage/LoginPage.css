@@ -75,3 +75,30 @@ body {
     margin-top: 12px;
     text-align: center;
 }
+
+.loginpage_signupoption {
+    margin-top: 25px;
+    height:56px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+}
+.loginPage_signin{
+    margin-top: 20px;
+}
+.loginPage_signup {
+    margin-top: 20px;
+}
+.loginPage_downloadSection {
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+.loginPage_option {
+    margin-top: 20px;
+}
+.loginPage_dwimg {
+    margin: 5px;
+}

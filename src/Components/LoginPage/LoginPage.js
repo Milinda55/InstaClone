@@ -41,6 +41,18 @@ class LoginPage extends Component {
                             </div>
                             <div className="login_forgot"> Forgot password?</div>
 
+                            <div className="loginpage_signupoption">
+                                {
+                                    this.state.isLogin ?
+                                        <div className="loginPage_signin">
+                                            Don't have an account? <span onClick={this.changeLogin} style={{ "fontWeight":"bold", "color":"#0395F6"}}>Sign up</span>
+                                        </div> :
+                                        <div className="loginPage_signup">
+                                            Have an account? <span onClick={this.changeLogin}  style={{ "fontWeight":"bold", "color":"#0395F6"}}>Sign in</span>
+                                        </div>
+                                }
+                            </div>
+
                         </div>
                         </div>
                         </div>
