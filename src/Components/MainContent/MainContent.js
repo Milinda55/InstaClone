@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "./NavBar.css";
-import { Grid} from "@material-ui/core/Grid";
+import "./MainContent.css"
 
-class NavBar extends Component {
+class MainContent extends Component {
     constructor(props) {
         super(props);
         this.state = { }
@@ -11,10 +10,10 @@ class NavBar extends Component {
     render() {
         return(
             <div>
-                <div className="navbar_barContent"></div>
+                Main Content
             </div>
         );
     }
 }
 
-export default NavBar;
+export default MainContent;
